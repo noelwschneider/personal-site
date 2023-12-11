@@ -16,6 +16,10 @@
   }
 }
 
+html {
+  font-family: var(--inter);
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +28,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.demo {
+  color: var(--primary);
 }
